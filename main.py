@@ -5,7 +5,7 @@ import logging
 from subprocess import Popen
 
 logging.basicConfig(filename='loggiez.log', format='%(levelname)s:%(message)s', level=logging.DEBUG)
-PORT = 8069
+PORT = 8015
 print("ill be alive at http://18.223.24.247" + str(PORT))
 
 Handler = http.server.SimpleHTTPRequestHandler
